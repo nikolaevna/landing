@@ -1,0 +1,87 @@
+/*
+=====================
+БЛОК ТЕХНОЛОГИЙ
+=====================
+******для меня, потом удалить******
+Сначала положение элемента относительно других: position, left/right/top/bottom, float, clear, z-index.
+Затем размеры и отступы: width, height, margin, padding…
+Рамка border, она частично относится к размерам.
+Общее оформление содержимого: list-style-type, overflow…
+Цветовое и стилевое оформление: background, color, font…
+*/
+
+.homepage_technologies {
+    background-image: url("../img/techologies_bg_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.technology-stack  {
+    width: 50%;
+    margin: 0 auto;
+
+}
+.technology-stack p {
+    background-image: url("../img/polygon.png");
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 3;
+    text-align: center;
+    color: #eeeeee;
+    padding-bottom: 10%;
+
+}
+#trapezoid {
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 3;
+
+}
+#trapezoid img {
+    -webkit-filter: brightness(40%);
+    filter: brightness(40%);
+}
+.database-main {
+    background-image: url(../img/polygon-database.png);
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    background-size: 90%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.database-main_content {
+    width: 50%;
+    margin: 0 auto;
+
+}
+.database_img img {
+    padding: 0 3%;
+}
+.database-main p {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 3;
+    text-align: center;
+    color: #eeeeee;
+    padding-bottom: 10%;
+
+}
+
+.testimonials_backend {
+    background-image: url(../img/trapezoid.png);
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: 50%;
+    padding: 2% 0 5%;
+
+
+}
